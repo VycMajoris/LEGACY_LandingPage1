@@ -1,0 +1,37 @@
+body {
+    display: flex;
+
+}
+
+/* HEADER: */
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header1stRow {
+    display: flex;
+    max-width: 2000px;
+    min-width: 400px;
+    justify-content: space-between;
+}
+
+.firstRowLinks {
+    display: flex;
+    gap: 10px;
+}
+
+.header2ndRow {
+    display: flex;
+    max-width: 2000px;
+    min-width: 400px;
+    justify-content: space-between;
+}
+
+img {
+    max-width: 400px;
+
+}
+
+/* Random information section: */
