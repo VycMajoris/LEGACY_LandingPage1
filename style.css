@@ -1,6 +1,10 @@
 body {
     display: flex;
     flex-direction: column;
+    min-width: 800px;
+    max-width: 960px;
+    align-items: center;
+    margin: auto;
 
 }
 
@@ -9,6 +13,11 @@ body {
 header {
     display: flex;
     flex-direction: column;
+    background-color: #1F2937;
+    padding: 100px;
+    padding-top: 10px;
+    gap: 60px;
+
 }
 
 .header1stRow {
@@ -30,9 +39,83 @@ header {
     justify-content: space-between;
 }
 
+.textAndButton {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 img {
     max-width: 400px;
 
 }
 
+.headerLogoText {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.heroText {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.heroSecondaryText,
+.headerLinks {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+
+}
+
+.header2ndRow button {
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 0.4em;
+    padding: 0.4em 2em 0.5em 2em;
+    color: white;
+    font-weight: 700;
+}
+
+
+
 /* Random information section: */
+
+figure {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.informationHeader {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+
+.randomImages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+
+}
+
+.randomImages img {
+    display: flex;
+    width: 120px;
+    height: 120px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+
+
+
+}
+
+.randomImages div {
+    width: 120px;
+
+    text-align: center;
+}
